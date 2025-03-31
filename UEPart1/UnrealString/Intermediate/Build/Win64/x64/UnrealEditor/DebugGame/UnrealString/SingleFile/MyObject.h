@@ -1,0 +1,1 @@
+#include "C:/Workspace/UnrealEngine/UEPart1/UnrealString/Source/UnrealString/MyObject.h"

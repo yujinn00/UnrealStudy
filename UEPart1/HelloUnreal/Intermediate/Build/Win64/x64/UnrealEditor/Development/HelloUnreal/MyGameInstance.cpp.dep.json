@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\workspace\\unrealengine\\uepart1\\hellounreal\\source\\hellounreal\\mygameinstance.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\workspace\\unrealengine\\uepart1\\hellounreal\\intermediate\\build\\win64\\x64\\hellounrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\workspace\\unrealengine\\uepart1\\hellounreal\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\hellounreal\\definitions.hellounreal.h",
+            "c:\\workspace\\unrealengine\\uepart1\\hellounreal\\source\\hellounreal\\mygameinstance.h",
+            "c:\\workspace\\unrealengine\\uepart1\\hellounreal\\intermediate\\build\\win64\\unrealeditor\\inc\\hellounreal\\uht\\mygameinstance.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

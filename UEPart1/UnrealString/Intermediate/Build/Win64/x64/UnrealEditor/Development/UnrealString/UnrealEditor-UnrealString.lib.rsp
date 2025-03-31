@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-UnrealString.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Workspace\UnrealEngine\UEPart1\UnrealString\Intermediate\Build\Win64\x64\UnrealStringEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Workspace\UnrealEngine\UEPart1\UnrealString\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealString\MyGameInstance.gen.cpp.obj"
+"C:\Workspace\UnrealEngine\UEPart1\UnrealString\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealString\UnrealString.init.gen.cpp.obj"
+"C:\Workspace\UnrealEngine\UEPart1\UnrealString\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealString\MyGameInstance.cpp.obj"
+"C:\Workspace\UnrealEngine\UEPart1\UnrealString\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealString\UnrealString.cpp.obj"
+"C:\Workspace\UnrealEngine\UEPart1\UnrealString\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealString\Default.rc2.res"
+/OUT:"C:\Workspace\UnrealEngine\UEPart1\UnrealString\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealString\UnrealEditor-UnrealString.lib"
