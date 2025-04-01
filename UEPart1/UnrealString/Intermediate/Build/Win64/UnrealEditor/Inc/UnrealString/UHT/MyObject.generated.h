@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define UNREALSTRING_MyObject_generated_h
 
-#define FID_Workspace_UnrealEngine_UEPart1_UnrealString_Source_UnrealString_MyObject_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_Workspace_UnrealStudy_UEPart1_UnrealString_Source_UnrealString_MyObject_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMyObject(); \
 	friend struct Z_Construct_UClass_UMyObject_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(UMyObject)
 
 
-#define FID_Workspace_UnrealEngine_UEPart1_UnrealString_Source_UnrealString_MyObject_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_Workspace_UnrealStudy_UEPart1_UnrealString_Source_UnrealString_MyObject_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMyObject(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -37,12 +37,12 @@ public: \
 	NO_API virtual ~UMyObject();
 
 
-#define FID_Workspace_UnrealEngine_UEPart1_UnrealString_Source_UnrealString_MyObject_h_12_PROLOG
-#define FID_Workspace_UnrealEngine_UEPart1_UnrealString_Source_UnrealString_MyObject_h_15_GENERATED_BODY \
+#define FID_Workspace_UnrealStudy_UEPart1_UnrealString_Source_UnrealString_MyObject_h_12_PROLOG
+#define FID_Workspace_UnrealStudy_UEPart1_UnrealString_Source_UnrealString_MyObject_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Workspace_UnrealEngine_UEPart1_UnrealString_Source_UnrealString_MyObject_h_15_INCLASS_NO_PURE_DECLS \
-	FID_Workspace_UnrealEngine_UEPart1_UnrealString_Source_UnrealString_MyObject_h_15_ENHANCED_CONSTRUCTORS \
+	FID_Workspace_UnrealStudy_UEPart1_UnrealString_Source_UnrealString_MyObject_h_15_INCLASS_NO_PURE_DECLS \
+	FID_Workspace_UnrealStudy_UEPart1_UnrealString_Source_UnrealString_MyObject_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -50,7 +50,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> UNREALSTRING_API UClass* StaticClass<class UMyObject>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Workspace_UnrealEngine_UEPart1_UnrealString_Source_UnrealString_MyObject_h
+#define CURRENT_FILE_ID FID_Workspace_UnrealStudy_UEPart1_UnrealString_Source_UnrealString_MyObject_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\workspace\\unrealstudy\\objectreflection\\source\\objectreflection\\objectreflection.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\workspace\\unrealstudy\\objectreflection\\intermediate\\build\\win64\\x64\\objectreflectioneditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\workspace\\unrealstudy\\objectreflection\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\objectreflection\\definitions.objectreflection.h",
+            "c:\\workspace\\unrealstudy\\objectreflection\\source\\objectreflection\\objectreflection.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

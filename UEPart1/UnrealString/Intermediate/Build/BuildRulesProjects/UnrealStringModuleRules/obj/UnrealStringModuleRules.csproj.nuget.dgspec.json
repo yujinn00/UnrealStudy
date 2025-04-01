@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Workspace\\UnrealEngine\\UEPart1\\UnrealString\\Intermediate\\Build\\BuildRulesProjects\\UnrealStringModuleRules\\UnrealStringModuleRules.csproj": {}
+    "C:\\Workspace\\UnrealStudy\\UEPart1\\UnrealString\\Intermediate\\Build\\BuildRulesProjects\\UnrealStringModuleRules\\UnrealStringModuleRules.csproj": {}
   },
   "projects": {
     "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj": {
@@ -1304,14 +1304,14 @@
         }
       }
     },
-    "C:\\Workspace\\UnrealEngine\\UEPart1\\UnrealString\\Intermediate\\Build\\BuildRulesProjects\\UnrealStringModuleRules\\UnrealStringModuleRules.csproj": {
+    "C:\\Workspace\\UnrealStudy\\UEPart1\\UnrealString\\Intermediate\\Build\\BuildRulesProjects\\UnrealStringModuleRules\\UnrealStringModuleRules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspace\\UnrealEngine\\UEPart1\\UnrealString\\Intermediate\\Build\\BuildRulesProjects\\UnrealStringModuleRules\\UnrealStringModuleRules.csproj",
+        "projectUniqueName": "C:\\Workspace\\UnrealStudy\\UEPart1\\UnrealString\\Intermediate\\Build\\BuildRulesProjects\\UnrealStringModuleRules\\UnrealStringModuleRules.csproj",
         "projectName": "UnrealStringModuleRules",
-        "projectPath": "C:\\Workspace\\UnrealEngine\\UEPart1\\UnrealString\\Intermediate\\Build\\BuildRulesProjects\\UnrealStringModuleRules\\UnrealStringModuleRules.csproj",
+        "projectPath": "C:\\Workspace\\UnrealStudy\\UEPart1\\UnrealString\\Intermediate\\Build\\BuildRulesProjects\\UnrealStringModuleRules\\UnrealStringModuleRules.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspace\\UnrealEngine\\UEPart1\\UnrealString\\Intermediate\\Build\\BuildRulesProjects\\UnrealStringModuleRules\\obj\\",
+        "outputPath": "C:\\Workspace\\UnrealStudy\\UEPart1\\UnrealString\\Intermediate\\Build\\BuildRulesProjects\\UnrealStringModuleRules\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

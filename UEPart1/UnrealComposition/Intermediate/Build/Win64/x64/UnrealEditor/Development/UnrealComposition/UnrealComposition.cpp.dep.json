@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\workspace\\unrealstudy\\unrealcomposition\\source\\unrealcomposition\\unrealcomposition.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\workspace\\unrealstudy\\unrealcomposition\\intermediate\\build\\win64\\x64\\unrealcompositioneditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\workspace\\unrealstudy\\unrealcomposition\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealcomposition\\definitions.unrealcomposition.h",
+            "c:\\workspace\\unrealstudy\\unrealcomposition\\source\\unrealcomposition\\unrealcomposition.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

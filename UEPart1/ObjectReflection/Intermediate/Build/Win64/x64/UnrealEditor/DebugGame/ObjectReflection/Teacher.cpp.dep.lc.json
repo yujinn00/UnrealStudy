@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\workspace\\unrealstudy\\objectreflection\\source\\objectreflection\\teacher.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\workspace\\unrealstudy\\objectreflection\\intermediate\\build\\win64\\x64\\objectreflectioneditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\workspace\\unrealstudy\\objectreflection\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\objectreflection\\definitions.objectreflection.h",
+            "c:\\workspace\\unrealstudy\\objectreflection\\source\\objectreflection\\teacher.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\noexporttypes.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\serialization\\testundeclaredscriptstructobjectreferences.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\core\\public\\math\\unitconversion.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\core\\public\\math\\unitconversion.inl",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\core\\public\\internationalization\\polyglottextdata.h",
+            "c:\\workspace\\unrealstudy\\objectreflection\\source\\objectreflection\\person.h",
+            "c:\\workspace\\unrealstudy\\objectreflection\\intermediate\\build\\win64\\unrealeditor\\inc\\objectreflection\\uht\\person.generated.h",
+            "c:\\workspace\\unrealstudy\\objectreflection\\intermediate\\build\\win64\\unrealeditor\\inc\\objectreflection\\uht\\teacher.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -80,14 +80,14 @@ UMyObject::~UMyObject() {}
 // End Class UMyObject
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Workspace_UnrealEngine_UEPart1_UnrealString_Source_UnrealString_MyObject_h_Statics
+struct Z_CompiledInDeferFile_FID_Workspace_UnrealStudy_UEPart1_UnrealString_Source_UnrealString_MyObject_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UMyObject, UMyObject::StaticClass, TEXT("UMyObject"), &Z_Registration_Info_UClass_UMyObject, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMyObject), 3576698985U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Workspace_UnrealEngine_UEPart1_UnrealString_Source_UnrealString_MyObject_h_2101323041(TEXT("/Script/UnrealString"),
-	Z_CompiledInDeferFile_FID_Workspace_UnrealEngine_UEPart1_UnrealString_Source_UnrealString_MyObject_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Workspace_UnrealEngine_UEPart1_UnrealString_Source_UnrealString_MyObject_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Workspace_UnrealStudy_UEPart1_UnrealString_Source_UnrealString_MyObject_h_2101323041(TEXT("/Script/UnrealString"),
+	Z_CompiledInDeferFile_FID_Workspace_UnrealStudy_UEPart1_UnrealString_Source_UnrealString_MyObject_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Workspace_UnrealStudy_UEPart1_UnrealString_Source_UnrealString_MyObject_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

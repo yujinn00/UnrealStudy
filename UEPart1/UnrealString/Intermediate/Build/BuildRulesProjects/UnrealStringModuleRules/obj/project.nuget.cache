@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oUUVY6luH+Y=",
+  "dgSpecHash": "rBmZs1+Ury4=",
   "success": true,
-  "projectFilePath": "C:\\Workspace\\UnrealEngine\\UEPart1\\UnrealString\\Intermediate\\Build\\BuildRulesProjects\\UnrealStringModuleRules\\UnrealStringModuleRules.csproj",
+  "projectFilePath": "C:\\Workspace\\UnrealStudy\\UEPart1\\UnrealString\\Intermediate\\Build\\BuildRulesProjects\\UnrealStringModuleRules\\UnrealStringModuleRules.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\bitfaster.caching\\2.4.1\\bitfaster.caching.2.4.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\blake3\\0.5.1\\blake3.0.5.1.nupkg.sha512",

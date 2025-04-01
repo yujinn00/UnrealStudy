@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\workspace\\unrealengine\\uepart1\\unrealstring\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealstring\\uht\\unrealstring.init.gen.cpp",
+        "Source": "c:\\workspace\\unrealstudy\\uepart1\\unrealstring\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealstring\\uht\\unrealstring.init.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\workspace\\unrealengine\\uepart1\\unrealstring\\intermediate\\build\\win64\\x64\\unrealstringeditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.h.pch",
+        "PCH": "c:\\workspace\\unrealstudy\\uepart1\\unrealstring\\intermediate\\build\\win64\\x64\\unrealstringeditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.h.pch",
         "Includes": [
-            "c:\\workspace\\unrealengine\\uepart1\\unrealstring\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\unrealstring\\definitions.unrealstring.h"
+            "c:\\workspace\\unrealstudy\\uepart1\\unrealstring\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\unrealstring\\definitions.unrealstring.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

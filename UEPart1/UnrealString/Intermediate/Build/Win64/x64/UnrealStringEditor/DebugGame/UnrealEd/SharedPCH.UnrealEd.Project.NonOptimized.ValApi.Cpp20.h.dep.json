@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\workspace\\unrealengine\\uepart1\\unrealstring\\intermediate\\build\\win64\\x64\\unrealstringeditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.cpp",
+        "Source": "c:\\workspace\\unrealstudy\\uepart1\\unrealstring\\intermediate\\build\\win64\\x64\\unrealstringeditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\workspace\\unrealengine\\uepart1\\unrealstring\\intermediate\\build\\win64\\x64\\unrealstringeditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.h",
-            "c:\\workspace\\unrealengine\\uepart1\\unrealstring\\intermediate\\build\\win64\\x64\\unrealstringeditor\\debuggame\\unrealed\\shareddefinitions.unrealed.project.nonoptimized.valapi.cpp20.h",
+            "c:\\workspace\\unrealstudy\\uepart1\\unrealstring\\intermediate\\build\\win64\\x64\\unrealstringeditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.h",
+            "c:\\workspace\\unrealstudy\\uepart1\\unrealstring\\intermediate\\build\\win64\\x64\\unrealstringeditor\\debuggame\\unrealed\\shareddefinitions.unrealed.project.nonoptimized.valapi.cpp20.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\editor\\unrealed\\public\\unrealedsharedpch.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\public\\enginesharedpch.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\slate\\public\\slatesharedpch.h",

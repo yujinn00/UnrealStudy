@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-UnrealComposition.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Workspace\UnrealStudy\UnrealComposition\Intermediate\Build\Win64\x64\UnrealCompositionEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Workspace\UnrealStudy\UnrealComposition\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealComposition\UnrealComposition.cpp.obj"
+"C:\Workspace\UnrealStudy\UnrealComposition\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealComposition\Default.rc2.res"
+/OUT:"C:\Workspace\UnrealStudy\UnrealComposition\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealComposition\UnrealEditor-UnrealComposition.lib"

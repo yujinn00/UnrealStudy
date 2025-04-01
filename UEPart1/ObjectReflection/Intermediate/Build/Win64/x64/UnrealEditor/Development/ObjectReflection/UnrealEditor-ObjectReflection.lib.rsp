@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ObjectReflection.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Workspace\UnrealStudy\ObjectReflection\Intermediate\Build\Win64\x64\ObjectReflectionEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Workspace\UnrealStudy\ObjectReflection\Intermediate\Build\Win64\x64\UnrealEditor\Development\ObjectReflection\MyGameInstance.gen.cpp.obj"
+"C:\Workspace\UnrealStudy\ObjectReflection\Intermediate\Build\Win64\x64\UnrealEditor\Development\ObjectReflection\ObjectReflection.init.gen.cpp.obj"
+"C:\Workspace\UnrealStudy\ObjectReflection\Intermediate\Build\Win64\x64\UnrealEditor\Development\ObjectReflection\MyGameInstance.cpp.obj"
+"C:\Workspace\UnrealStudy\ObjectReflection\Intermediate\Build\Win64\x64\UnrealEditor\Development\ObjectReflection\ObjectReflection.cpp.obj"
+"C:\Workspace\UnrealStudy\ObjectReflection\Intermediate\Build\Win64\x64\UnrealEditor\Development\ObjectReflection\Default.rc2.res"
+/OUT:"C:\Workspace\UnrealStudy\ObjectReflection\Intermediate\Build\Win64\x64\UnrealEditor\Development\ObjectReflection\UnrealEditor-ObjectReflection.lib"
