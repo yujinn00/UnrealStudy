@@ -1,0 +1,3 @@
+// PCH for Runtime/CoreUObject/Public/CoreUObjectSharedPCH.h
+#include "C:/Workspace/UnrealStudy/UEPart1/UnrealDelegate/Intermediate/Build/Win64/x64/UnrealDelegateEditor/DebugGame/CoreUObject/SharedDefinitions.CoreUObject.Cpp20.h"
+#include "Runtime/CoreUObject/Public/CoreUObjectSharedPCH.h"

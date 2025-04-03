@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\workspace\\unrealstudy\\uepart1\\unrealcontainer\\source\\unrealcontainer\\mygameinstance.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\workspace\\unrealstudy\\uepart1\\unrealcontainer\\intermediate\\build\\win64\\x64\\unrealcontainereditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\workspace\\unrealstudy\\uepart1\\unrealcontainer\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealcontainer\\definitions.unrealcontainer.h",
+            "c:\\workspace\\unrealstudy\\uepart1\\unrealcontainer\\source\\unrealcontainer\\mygameinstance.h",
+            "c:\\workspace\\unrealstudy\\uepart1\\unrealcontainer\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealcontainer\\uht\\mygameinstance.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

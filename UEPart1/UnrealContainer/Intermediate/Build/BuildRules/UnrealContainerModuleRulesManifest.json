@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Workspace\\UnrealStudy\\UEPart1\\UnrealContainer\\Source\\UnrealContainer\\UnrealContainer.Build.cs",
+		"C:\\Workspace\\UnrealStudy\\UEPart1\\UnrealContainer\\Source\\UnrealContainer.Target.cs",
+		"C:\\Workspace\\UnrealStudy\\UEPart1\\UnrealContainer\\Source\\UnrealContainerEditor.Target.cs"
+	],
+	"EngineVersion": "5.4.4"
+}

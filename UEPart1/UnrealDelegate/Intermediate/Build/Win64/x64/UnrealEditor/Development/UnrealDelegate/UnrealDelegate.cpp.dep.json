@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\workspace\\unrealstudy\\uepart1\\unrealdelegate\\source\\unrealdelegate\\unrealdelegate.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\workspace\\unrealstudy\\uepart1\\unrealdelegate\\intermediate\\build\\win64\\x64\\unrealdelegateeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\workspace\\unrealstudy\\uepart1\\unrealdelegate\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealdelegate\\definitions.unrealdelegate.h",
+            "c:\\workspace\\unrealstudy\\uepart1\\unrealdelegate\\source\\unrealdelegate\\unrealdelegate.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
