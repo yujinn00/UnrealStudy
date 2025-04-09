@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Workspace\\UnrealEngine\\UEPart1\\HelloUnreal\\Source\\HelloUnreal\\HelloUnreal.Build.cs",
-		"C:\\Workspace\\UnrealEngine\\UEPart1\\HelloUnreal\\Source\\HelloUnreal.Target.cs",
-		"C:\\Workspace\\UnrealEngine\\UEPart1\\HelloUnreal\\Source\\HelloUnrealEditor.Target.cs"
+		"C:\\Workspace\\UnrealStudy\\UEPart1\\HelloUnreal\\Source\\HelloUnreal\\HelloUnreal.Build.cs",
+		"C:\\Workspace\\UnrealStudy\\UEPart1\\HelloUnreal\\Source\\HelloUnreal.Target.cs",
+		"C:\\Workspace\\UnrealStudy\\UEPart1\\HelloUnreal\\Source\\HelloUnrealEditor.Target.cs"
 	],
 	"EngineVersion": "5.4.4"
 }

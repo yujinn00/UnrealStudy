@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Workspace\\UnrealStudy\\ObjectReflection\\Source\\ObjectReflection\\ObjectReflection.Build.cs",
-		"C:\\Workspace\\UnrealStudy\\ObjectReflection\\Source\\ObjectReflection.Target.cs",
-		"C:\\Workspace\\UnrealStudy\\ObjectReflection\\Source\\ObjectReflectionEditor.Target.cs"
+		"C:\\Workspace\\UnrealStudy\\UEPart1\\ObjectReflection\\Source\\ObjectReflection\\ObjectReflection.Build.cs",
+		"C:\\Workspace\\UnrealStudy\\UEPart1\\ObjectReflection\\Source\\ObjectReflection.Target.cs",
+		"C:\\Workspace\\UnrealStudy\\UEPart1\\ObjectReflection\\Source\\ObjectReflectionEditor.Target.cs"
 	],
 	"EngineVersion": "5.4.4"
 }

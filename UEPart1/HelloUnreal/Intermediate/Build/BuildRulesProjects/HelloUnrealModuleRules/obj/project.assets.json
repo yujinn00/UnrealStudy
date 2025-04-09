@@ -8546,11 +8546,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspace\\UnrealEngine\\UEPart1\\HelloUnreal\\Intermediate\\Build\\BuildRulesProjects\\HelloUnrealModuleRules\\HelloUnrealModuleRules.csproj",
+      "projectUniqueName": "C:\\Workspace\\UnrealStudy\\UEPart1\\HelloUnreal\\Intermediate\\Build\\BuildRulesProjects\\HelloUnrealModuleRules\\HelloUnrealModuleRules.csproj",
       "projectName": "HelloUnrealModuleRules",
-      "projectPath": "C:\\Workspace\\UnrealEngine\\UEPart1\\HelloUnreal\\Intermediate\\Build\\BuildRulesProjects\\HelloUnrealModuleRules\\HelloUnrealModuleRules.csproj",
+      "projectPath": "C:\\Workspace\\UnrealStudy\\UEPart1\\HelloUnreal\\Intermediate\\Build\\BuildRulesProjects\\HelloUnrealModuleRules\\HelloUnrealModuleRules.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspace\\UnrealEngine\\UEPart1\\HelloUnreal\\Intermediate\\Build\\BuildRulesProjects\\HelloUnrealModuleRules\\obj\\",
+      "outputPath": "C:\\Workspace\\UnrealStudy\\UEPart1\\HelloUnreal\\Intermediate\\Build\\BuildRulesProjects\\HelloUnrealModuleRules\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8612,20 +8612,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.36, 6.0.36]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.36, 6.0.36]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.36, 6.0.36]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

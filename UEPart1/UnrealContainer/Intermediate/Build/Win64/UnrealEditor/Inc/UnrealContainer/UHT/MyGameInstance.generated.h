@@ -14,7 +14,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define UNREALCONTAINER_MyGameInstance_generated_h
 
-#define FID_Workspace_UnrealStudy_UEPart1_UnrealContainer_Source_UnrealContainer_MyGameInstance_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_Workspace_UnrealStudy_UEPart1_UnrealContainer_Source_UnrealContainer_MyGameInstance_h_13_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FStudentData_Statics; \
+	UNREALCONTAINER_API static class UScriptStruct* StaticStruct();
+
+
+template<> UNREALCONTAINER_API UScriptStruct* StaticStruct<struct FStudentData>();
+
+#define FID_Workspace_UnrealStudy_UEPart1_UnrealContainer_Source_UnrealContainer_MyGameInstance_h_50_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMyGameInstance(); \
 	friend struct Z_Construct_UClass_UMyGameInstance_Statics; \
@@ -23,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UMyGameInstance)
 
 
-#define FID_Workspace_UnrealStudy_UEPart1_UnrealContainer_Source_UnrealContainer_MyGameInstance_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_Workspace_UnrealStudy_UEPart1_UnrealContainer_Source_UnrealContainer_MyGameInstance_h_50_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMyGameInstance(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -37,12 +44,12 @@ public: \
 	NO_API virtual ~UMyGameInstance();
 
 
-#define FID_Workspace_UnrealStudy_UEPart1_UnrealContainer_Source_UnrealContainer_MyGameInstance_h_12_PROLOG
-#define FID_Workspace_UnrealStudy_UEPart1_UnrealContainer_Source_UnrealContainer_MyGameInstance_h_15_GENERATED_BODY \
+#define FID_Workspace_UnrealStudy_UEPart1_UnrealContainer_Source_UnrealContainer_MyGameInstance_h_47_PROLOG
+#define FID_Workspace_UnrealStudy_UEPart1_UnrealContainer_Source_UnrealContainer_MyGameInstance_h_50_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Workspace_UnrealStudy_UEPart1_UnrealContainer_Source_UnrealContainer_MyGameInstance_h_15_INCLASS_NO_PURE_DECLS \
-	FID_Workspace_UnrealStudy_UEPart1_UnrealContainer_Source_UnrealContainer_MyGameInstance_h_15_ENHANCED_CONSTRUCTORS \
+	FID_Workspace_UnrealStudy_UEPart1_UnrealContainer_Source_UnrealContainer_MyGameInstance_h_50_INCLASS_NO_PURE_DECLS \
+	FID_Workspace_UnrealStudy_UEPart1_UnrealContainer_Source_UnrealContainer_MyGameInstance_h_50_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

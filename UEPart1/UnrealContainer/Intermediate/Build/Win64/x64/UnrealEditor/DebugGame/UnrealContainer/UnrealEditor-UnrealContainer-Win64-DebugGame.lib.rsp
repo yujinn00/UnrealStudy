@@ -8,8 +8,10 @@
 /NODEFAULTLIB
 "C:\Workspace\UnrealStudy\UEPart1\UnrealContainer\Intermediate\Build\Win64\x64\UnrealContainerEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.h.obj"
 "C:\Workspace\UnrealStudy\UEPart1\UnrealContainer\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\UnrealContainer\MyGameInstance.gen.cpp.obj"
+"C:\Workspace\UnrealStudy\UEPart1\UnrealContainer\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\UnrealContainer\Student.gen.cpp.obj"
 "C:\Workspace\UnrealStudy\UEPart1\UnrealContainer\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\UnrealContainer\UnrealContainer.init.gen.cpp.obj"
 "C:\Workspace\UnrealStudy\UEPart1\UnrealContainer\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\UnrealContainer\MyGameInstance.cpp.obj"
+"C:\Workspace\UnrealStudy\UEPart1\UnrealContainer\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\UnrealContainer\Student.cpp.obj"
 "C:\Workspace\UnrealStudy\UEPart1\UnrealContainer\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\UnrealContainer\UnrealContainer.cpp.obj"
 "C:\Workspace\UnrealStudy\UEPart1\UnrealContainer\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\UnrealContainer\Default.rc2.res"
 /OUT:"C:\Workspace\UnrealStudy\UEPart1\UnrealContainer\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\UnrealContainer\UnrealEditor-UnrealContainer-Win64-DebugGame.lib"
