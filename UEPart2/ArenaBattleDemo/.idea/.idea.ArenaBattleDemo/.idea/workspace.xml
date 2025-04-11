@@ -12,7 +12,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f66bf11f-f655-436c-a4ee-0d8c902a3086" name="변경" comment="" />
+    <list default="true" id="f66bf11f-f655-436c-a4ee-0d8c902a3086" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/../../UEPart1/UnrealInterface/Intermediate/CachedAssetRegistry_0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../UEPart1/UnrealInterface/Intermediate/CachedAssetRegistry_0.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UEPart1/UnrealInterface/Saved/Config/CrashReportClient/UECC-Windows-0D0465C4488EEB208A45AA8913D77472/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UEPart1/UnrealInterface/Saved/Config/CrashReportClient/UECC-Windows-0E2ED0D748C688BDBE827DB8D9735002/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UEPart1/UnrealInterface/Saved/Config/CrashReportClient/UECC-Windows-0ED3398D40721ED7CE916DA1801CDAF5/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UEPart1/UnrealInterface/Saved/Config/CrashReportClient/UECC-Windows-4066E7DA4FB067A0DAAB3083B51C3A07/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UEPart1/UnrealInterface/Saved/Config/CrashReportClient/UECC-Windows-79A02BAD4E38A0CE44360382FE85EA3D/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UEPart1/UnrealInterface/Saved/Config/CrashReportClient/UECC-Windows-8A8F80574CB37E36757E3DA3F80CFC06/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UEPart1/UnrealInterface/Saved/Config/CrashReportClient/UECC-Windows-AC9FC00C45F3109FF2957E83C6C6E957/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UEPart1/UnrealInterface/Saved/Config/CrashReportClient/UECC-Windows-AFE533E84E49C5A4A80146B1FAE46723/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UEPart1/UnrealInterface/Saved/Config/CrashReportClient/UECC-Windows-C505837A43BDF135FD49EFAE8CE9513D/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UEPart1/UnrealInterface/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../UEPart1/UnrealInterface/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UEPart1/UnrealInterface/Saved/Logs/UnrealInterface-backup-2025.04.01-06.07.20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UEPart1/UnrealInterface/Saved/Logs/UnrealInterface-backup-2025.04.01-06.16.52.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UEPart1/UnrealInterface/Saved/Logs/UnrealInterface-backup-2025.04.01-06.24.33.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UEPart1/UnrealInterface/Saved/Logs/UnrealInterface-backup-2025.04.01-06.32.50.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UEPart1/UnrealInterface/Saved/Logs/UnrealInterface-backup-2025.04.01-06.43.08.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UEPart1/UnrealInterface/Saved/Logs/UnrealInterface-backup-2025.04.01-06.51.30.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UEPart1/UnrealInterface/Saved/Logs/UnrealInterface-backup-2025.04.01-06.52.01.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UEPart1/UnrealInterface/Saved/Logs/UnrealInterface-backup-2025.04.01-06.55.24.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UEPart1/UnrealInterface/Saved/Logs/UnrealInterface.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../UEPart1/UnrealInterface/Saved/Logs/UnrealInterface.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UEPart1/UnrealInterface/Saved/Telemetry/Telemetry.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../UEPart1/UnrealInterface/Saved/Telemetry/Telemetry.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ArenaBattleDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ArenaBattleDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ArenaBattle/Input/Actions/IA_Look.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ArenaBattle/Input/Actions/IA_Move.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ArenaBattle/Input/IMC_Default.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ArenaBattle/Maps/Step2.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ArenaBattle/Maps/Step2.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterPlayer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterPlayer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterPlayer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterPlayer.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,9 +57,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Developer/TraceAnalysis/Public/Trace/Analyzer.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Editor/FontEditor/Private/SCompositeFontEditor.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/AutomationTool/Gauntlet/Unreal/Game/UnrealGame.DefaultNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.Jupiter/JupiterTree.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Core/Public/HAL/PThreadEvent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Classes/GameFramework/Character.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Private/PhysicsEngine/ImmediatePhysics/ImmediatePhysicsPhysX/ImmediatePhysicsActor_Physx.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Public/Physics/ImmediatePhysics/ImmediatePhysicsChaos/ImmediatePhysicsCore_Chaos.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterBase.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterBase.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterControlData.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterControlData.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterPlayer.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterPlayer.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/Props/ABFountain.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -168,6 +209,7 @@
       <workItem from="1744249385576" duration="558000" />
       <workItem from="1744249978139" duration="9258000" />
       <workItem from="1744266991739" duration="4798000" />
+      <workItem from="1744330596582" duration="9978000" />
     </task>
     <servers />
   </component>
