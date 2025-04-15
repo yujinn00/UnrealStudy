@@ -29,7 +29,7 @@ void UMyGameInstance::Init()
 	//}
 	//check(RuntimeClass == StaticClass);								// 강한 어썰트.
 	ensure(RuntimeClass == StaticClass);								// 약한 어썰트.
-	//ensureMsgf(RuntimeClass != StaticClass, TEXT("강제 에러 발생."));	// 메세지 출력.
+	//ensureMsgf(RuntimeClass != StaticClass, TEXT("강제 에러 발생."));	// 메세지 출력. 
 
 	UE_LOG(LogTemp, Log, TEXT("학교를 담당하는 클래스 이름: %s"), *RuntimeClass->GetName());
 

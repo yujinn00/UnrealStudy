@@ -6,7 +6,7 @@
 #include "UObject/NoExportTypes.h"
 #include "Card.generated.h"
 
-// ¿­°ÅÇü ¼±¾ð.
+// ì—´ê±°í˜• ì„ ì–¸.
 UENUM()
 enum class ECardType : uint8
 {
