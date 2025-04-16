@@ -88,6 +88,12 @@ AABCharacterPlayer::AABCharacterPlayer()
 		ChangeControlAction = ChangeControlActionRef.Object;
 	}
 
+	static ConstructorHelpers::FObjectFinder<UInputAction> AttackActionRef(TEXT("/Game/ArenaBattle/Input/Actions/IA_Attack.IA_Attack"));
+	if (AttackActionRef.Object)
+	{
+		AttackAction = AttackActionRef.Object;
+	}
+
 	// 초기 설정.
 	CurrentCharacterControlType = ECharacterControlType::Quarter;
 }
@@ -112,6 +118,7 @@ void AABCharacterPlayer::SetupPlayerInputComponent(class UInputComponent* Player
 	EnhancedInputComponent->BindAction(ShoulderMoveAction, ETriggerEvent::Triggered, this, &AABCharacterPlayer::ShoulderMove);
 	EnhancedInputComponent->BindAction(ShoulderLookAction, ETriggerEvent::Triggered, this, &AABCharacterPlayer::ShoulderLook);
 	EnhancedInputComponent->BindAction(QuarterMoveAction, ETriggerEvent::Triggered, this, &AABCharacterPlayer::QuarterMove);
+	EnhancedInputComponent->BindAction(AttackAction, ETriggerEvent::Triggered, this, &AABCharacterPlayer::Attack);
 }
 
 void AABCharacterPlayer::SetCharacterControl(ECharacterControlType NewCharacterControlType)
@@ -141,7 +148,7 @@ void AABCharacterPlayer::SetCharacterControlData(const class UABCharacterControl
 
 	// SpringArm 관련 설정.
 	SpringArm->TargetArmLength = InCharacterControlData->TargetArmLength;
-	SpringArm->SetRelativeRotation(InCharacterControlData->RotationRate);
+	SpringArm->SetRelativeRotation(InCharacterControlData->RelativeRotation);
 	SpringArm->bUsePawnControlRotation = InCharacterControlData->bUsePawnControlRotation;
 	SpringArm->bInheritPitch = InCharacterControlData->bInheritPitch;
 	SpringArm->bInheritYaw = InCharacterControlData->bInheritYaw;
@@ -191,6 +198,12 @@ void AABCharacterPlayer::QuarterMove(const FInputActionValue& Value)
 
 	// 입력에 따른 방향으로 이동하도록 입력 전달.
 	AddMovementInput(MoveDirection, MovementVectorSize);
+}
+
+void AABCharacterPlayer::Attack()
+{
+	// 공격 입력 처리 함수 호출.
+	ProcessComboCommand();
 }
 
 void AABCharacterPlayer::ShoulderMove(const FInputActionValue& Value)
