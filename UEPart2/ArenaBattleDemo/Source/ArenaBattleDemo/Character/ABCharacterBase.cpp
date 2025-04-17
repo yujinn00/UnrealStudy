@@ -52,6 +52,13 @@ AABCharacterBase::AABCharacterBase()
 	{
 		ComboActionData = ComboActionDataRef.Object;
 	}
+
+	// 죽음 몽타주 에셋 설정.
+	static ConstructorHelpers::FObjectFinder<UAnimMontage> DeadMontageRef(TEXT("/Game/ArenaBattle/Animation/AM_Dead.AM_Dead"));
+	if (DeadMontageRef.Object)
+	{
+		DeadMontage = DeadMontageRef.Object;
+	}
 }
 
 void AABCharacterBase::SetCharacterControlData(const class UABCharacterControlData* InCharacterControlData)
@@ -150,8 +157,8 @@ float AABCharacterBase::TakeDamage(float DamageAmount, struct FDamageEvent const
 {
 	Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
 
-	// @Task: 맞으면 바로 죽도록 처리.
-	
+	// 맞으면 바로 죽도록 처리.
+	SetDead();
 
 	return DamageAmount;
 }
@@ -286,5 +293,32 @@ void AABCharacterBase::ComboCheck()
 			// 콤보 공격 입력 플래그 초기화.
 			HasNextComboCommand = false;
 		}
+	}
+}
+
+void AABCharacterBase::SetDead()
+{
+	// 무브먼트 컴포넌트 끄기.
+	GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_None);
+
+	// 콜리전 끄기.
+	SetActorEnableCollision(false);
+
+	// 죽는 애니메이션 재생.
+	PlayDeadAnimation();
+}
+
+void AABCharacterBase::PlayDeadAnimation()
+{
+	// 몽타주 재생.
+	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+	if (AnimInstance)
+	{
+		// 이미 재생 중인 몽타주가 있다면, 모두 종료.
+		AnimInstance->StopAllMontages(0.0f);
+
+		// 죽음 몽타주 재생.
+		const float PlayRate = 1.0f;
+		AnimInstance->Montage_Play(DeadMontage, PlayRate);
 	}
 }

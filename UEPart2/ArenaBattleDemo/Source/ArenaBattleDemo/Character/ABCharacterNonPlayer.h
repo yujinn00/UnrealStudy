@@ -13,5 +13,10 @@ UCLASS()
 class ARENABATTLEDEMO_API AABCharacterNonPlayer : public AABCharacterBase
 {
 	GENERATED_BODY()
-	
+
+	AABCharacterNonPlayer();
+
+protected:
+	// 죽음 상태 설정 함수.
+	virtual void SetDead() override;
 };
