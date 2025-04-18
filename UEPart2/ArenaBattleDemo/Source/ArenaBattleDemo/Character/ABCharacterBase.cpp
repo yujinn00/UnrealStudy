@@ -15,11 +15,40 @@ AABCharacterBase::AABCharacterBase()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	// 컨트롤러의 회전을 받아서 설정하는 모드를 모두 해제.
+	bUseControllerRotationPitch = false;
+	bUseControllerRotationYaw = false;
+	bUseControllerRotationRoll = false;
+
+	// 무브먼트 설정.
+	GetCharacterMovement()->bOrientRotationToMovement = true;
+	GetCharacterMovement()->RotationRate = FRotator(0.0f, 720.f, 0.0f);
+	GetCharacterMovement()->JumpZVelocity = 500.0f;
+
 	// 컴포넌트 설정.
+	GetCapsuleComponent()->SetCapsuleHalfHeight(88.0f);
 	GetCapsuleComponent()->SetCollisionProfileName(CPROFILE_ABCAPSULE);
 
 	// 메시의 콜리전은 NoCollision 설정 (주로 랙돌에 사용됨).
 	GetMesh()->SetCollisionProfileName(TEXT("NoCollision"));
+	GetMesh()->SetRelativeLocationAndRotation(
+		FVector(0.0f, 0.0f, -88.0f),
+		FRotator(0.0f, -90.0f, 0.0f)
+	);
+
+	// 리소스 설정.
+	static ConstructorHelpers::FObjectFinder<USkeletalMesh> CharacterMesh(TEXT("/Game/Characters/Mannequins/Meshes/SKM_Quinn.SKM_Quinn"));
+	if (CharacterMesh.Object)
+	{
+		GetMesh()->SetSkeletalMesh(CharacterMesh.Object);
+	}
+
+	// 애니메이션 설정.
+	static ConstructorHelpers::FClassFinder<UAnimInstance> CharacterAnim(TEXT("/Game/Characters/Mannequins/Animations/ABP_Quinn.ABP_Quinn_C"));
+	if (CharacterAnim.Class)
+	{
+		GetMesh()->SetAnimClass(CharacterAnim.Class);
+	}
 
 	static ConstructorHelpers::FObjectFinder<UABCharacterControlData> ShoulderDataRef(TEXT("/Game/ArenaBattle/CharacterControl/ABC_Shoulder.ABC_Shoulder"));
 	if (ShoulderDataRef.Object)
@@ -29,7 +58,7 @@ AABCharacterBase::AABCharacterBase()
 			ShoulderDataRef.Object
 		);
 	}
-	
+
 	static ConstructorHelpers::FObjectFinder<UABCharacterControlData> QuarterDataRef(TEXT("/Game/ArenaBattle/CharacterControl/ABC_Quarter.ABC_Quarter"));
 	if (QuarterDataRef.Object)
 	{
