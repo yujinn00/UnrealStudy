@@ -12,12 +12,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f66bf11f-f655-436c-a4ee-0d8c902a3086" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ArenaBattleDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ArenaBattleDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArenaBattleDemo.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/ArenaBattleDemo.uproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterBase.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterPlayer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterPlayer.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="f66bf11f-f655-436c-a4ee-0d8c902a3086" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -219,7 +214,7 @@
       <workItem from="1744849188621" duration="3993000" />
       <workItem from="1744853959210" duration="8813000" />
       <workItem from="1744942169871" duration="358000" />
-      <workItem from="1744942569619" duration="3845000" />
+      <workItem from="1744942569619" duration="4284000" />
     </task>
     <servers />
   </component>
