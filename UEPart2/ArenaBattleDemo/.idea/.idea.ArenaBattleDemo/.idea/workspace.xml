@@ -14,11 +14,12 @@
   <component name="ChangeListManager">
     <list default="true" id="f66bf11f-f655-436c-a4ee-0d8c902a3086" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ArenaBattleDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ArenaBattleDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ArenaBattle/Item/Weapon/ABIW_Weapon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ArenaBattle/Item/Weapon/ABIW_Weapon.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/ArenaBattle/Maps/Step3.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ArenaBattle/Maps/Step3.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ArenaBattle/UI/WBP_HPBar.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ArenaBattle/UI/WBP_HPBar.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Warrior.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Warrior.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/InfinityBladeWarriors/Character/CompleteCharacters/SK_Mannequin_Skeleton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/InfinityBladeWarriors/Character/CompleteCharacters/SK_Mannequin_Skeleton.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterBase.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterBase.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ArenaBattleDemo/UI/ABHpBarWidget.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ArenaBattleDemo/UI/ABHpBarWidget.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,7 @@
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Developer/TraceInsights/Public/Insights/ViewModels/BaseTimingTrack.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Developer/Windows/LiveCodingServer/Private/External/LC_SchedulerTask.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Editor/FontEditor/Private/SCompositeFontEditor.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Editor/PropertyEditor/Private/PropertyCustomizationHelpers.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/AutomationTool/AutomationUtils/P4Utils.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/AutomationTool/Gauntlet/SelfTest/TestData/LogParser/LinuxFatalError.txt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/AutomationTool/Gauntlet/Unreal/Game/UnrealGame.DefaultNode.cs" root0="FORCE_HIGHLIGHTING" />
@@ -56,6 +58,7 @@
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.Jupiter/JupiterTree.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/UnrealBuildTool/Configuration/ModuleRules.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/UnrealBuildTool/Platform/Android/AndroidToolChain.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/UnrealBuildTool/ProjectFiles/Xcode/XcodeProjectLegacy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/AVEncoder/Public/VideoEncoder.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/AugmentedReality/Public/ARActor.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Core/Public/HAL/PThreadEvent.h" root0="FORCE_HIGHLIGHTING" />
@@ -257,7 +260,8 @@
       <workItem from="1744942169871" duration="358000" />
       <workItem from="1744942569619" duration="5559000" />
       <workItem from="1744954544975" duration="4510000" />
-      <workItem from="1745194887241" duration="9424000" />
+      <workItem from="1745194887241" duration="10115000" />
+      <workItem from="1745211977676" duration="3270000" />
     </task>
     <servers />
   </component>
