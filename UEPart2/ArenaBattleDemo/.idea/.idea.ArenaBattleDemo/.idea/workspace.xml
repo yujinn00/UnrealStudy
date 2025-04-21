@@ -15,11 +15,8 @@
     <list default="true" id="f66bf11f-f655-436c-a4ee-0d8c902a3086" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ArenaBattleDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ArenaBattleDemo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/ArenaBattle/Item/Weapon/ABIW_Weapon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ArenaBattle/Item/Weapon/ABIW_Weapon.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ArenaBattle/Maps/Step3.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ArenaBattle/Maps/Step3.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Warrior.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Warrior.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/InfinityBladeWarriors/Character/CompleteCharacters/SK_Mannequin_Skeleton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/InfinityBladeWarriors/Character/CompleteCharacters/SK_Mannequin_Skeleton.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterBase.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ArenaBattleDemo/Item/ABWeaponItemData.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ArenaBattleDemo/Item/ABWeaponItemData.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +258,9 @@
       <workItem from="1744942569619" duration="5559000" />
       <workItem from="1744954544975" duration="4510000" />
       <workItem from="1745194887241" duration="10115000" />
-      <workItem from="1745211977676" duration="3270000" />
+      <workItem from="1745211977676" duration="4159000" />
+      <workItem from="1745216190643" duration="380000" />
+      <workItem from="1745216604359" duration="181000" />
     </task>
     <servers />
   </component>

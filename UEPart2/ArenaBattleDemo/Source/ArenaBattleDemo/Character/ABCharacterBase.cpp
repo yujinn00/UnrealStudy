@@ -450,10 +450,18 @@ void AABCharacterBase::EquipWeapon(class UABItemData* InItemData)
 	// UE_LOG(LogABCharacter, Log, TEXT("Equip Weapon"));
 	// 함수에 전달된 아이템 데이터 애셋을 무기 데이터로 변환.
 	UABWeaponItemData* WeaponItemData = Cast<UABWeaponItemData>(InItemData);
+
+	// 변환에 성공했으면,
 	if (WeaponItemData)
 	{
-		// 변환에 성공했으면 무기 컴포넌트에 해당 스켈레탈 메시 설정.
-		Weapon->SetSkeletalMesh(WeaponItemData->WeaponMesh);
+		// 무기 메시가 아직 로딩되지 않은 경우, 로드 처리.
+		if (WeaponItemData->WeaponMesh.IsPending())
+		{
+			WeaponItemData->WeaponMesh.LoadSynchronous();
+		}
+
+		// 무기 컴포넌트에 로드가 완료된 스켈레탈 메시 설정.
+		Weapon->SetSkeletalMesh(WeaponItemData->WeaponMesh.Get());
 	}
 }
 
