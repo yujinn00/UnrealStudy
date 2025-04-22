@@ -14,9 +14,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f66bf11f-f655-436c-a4ee-0d8c902a3086" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ArenaBattleDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ArenaBattleDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ArenaBattle/Item/Weapon/ABIW_Weapon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ArenaBattle/Item/Weapon/ABIW_Weapon.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterBase.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ArenaBattleDemo/Item/ABWeaponItemData.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ArenaBattleDemo/Item/ABWeaponItemData.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ArenaBattle/Environment/Stages/SM_SQUARE.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ArenaBattle/Environment/Stages/SM_SQUARE.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ArenaBattle/Maps/Step3.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ArenaBattle/Maps/Step3.umap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +67,8 @@
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Classes/Animation/AnimNotifies/AnimNotify.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Classes/Components/BoxComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Classes/Components/CapsuleComponent.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Classes/Components/PrimitiveComponent.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Classes/Components/ShapeComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Classes/Engine/World.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Classes/GameFramework/Actor.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Classes/GameFramework/Character.h" root0="FORCE_HIGHLIGHTING" />
@@ -98,6 +100,8 @@
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABComboActionData.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/CharacterStat/ABCharacterStatComponent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/CharacterStat/ABCharacterStatComponent.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/Gimmick/ABStageGimmick.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/Gimmick/ABStageGimmick.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/Interface/ABAnimationAttackInterface.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/Interface/ABAnimationAttackInterface.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/Interface/ABCharacterWidgetInterface.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -261,6 +265,7 @@
       <workItem from="1745211977676" duration="4159000" />
       <workItem from="1745216190643" duration="380000" />
       <workItem from="1745216604359" duration="181000" />
+      <workItem from="1745281898096" duration="9919000" />
     </task>
     <servers />
   </component>
