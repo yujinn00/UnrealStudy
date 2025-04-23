@@ -50,14 +50,14 @@ AABCharacterBase::AABCharacterBase()
 	);
 
 	// 리소스 설정.
-	static ConstructorHelpers::FObjectFinder<USkeletalMesh> CharacterMesh(TEXT("/Game/Characters/Mannequins/Meshes/SKM_Quinn.SKM_Quinn"));
+	static ConstructorHelpers::FObjectFinder<USkeletalMesh> CharacterMesh(TEXT("/Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_FrostGiant.SK_CharM_FrostGiant"));
 	if (CharacterMesh.Object)
 	{
 		GetMesh()->SetSkeletalMesh(CharacterMesh.Object);
 	}
 
 	// 애니메이션 설정.
-	static ConstructorHelpers::FClassFinder<UAnimInstance> CharacterAnim(TEXT("/Game/Characters/Mannequins/Animations/ABP_Quinn.ABP_Quinn_C"));
+	static ConstructorHelpers::FClassFinder<UAnimInstance> CharacterAnim(TEXT("/Game/ArenaBattle/Animation/ABP_ABCharacter.ABP_ABCharacter_C"));
 	if (CharacterAnim.Class)
 	{
 		GetMesh()->SetAnimClass(CharacterAnim.Class);
@@ -172,7 +172,7 @@ void AABCharacterBase::SetUpCharacterWidget(class UUserWidget* InUserWidget)
 void AABCharacterBase::AttackHitCheck()
 {
 	// 공격 판정 진행.
-	UE_LOG(LogTemp, Log, TEXT("AttackHitCheck !!"));
+	// UE_LOG(LogTemp, Log, TEXT("AttackHitCheck !!"));
 
 	// 충돌 시작 지점 계산.
 	// 캐릭터 몸통에서 약간 앞으로(캡슐의 반지름만큼) 설정.
@@ -210,7 +210,7 @@ void AABCharacterBase::AttackHitCheck()
 	if (HitDetected)
 	{
 		// 데미지 수치.
-		const float AttackDamage = 30.0f;
+		const float AttackDamage = 100.0f;
 
 		// 데미지 이벤트.
 		FDamageEvent DamageEvent;

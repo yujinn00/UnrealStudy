@@ -104,4 +104,52 @@ protected:
 	// 문 열고 닫는 함수.
 	void OpenAllGates();
 	void CloseAllGates();
+
+// Fight Section.
+protected:
+	// 대전할 NPC 지정을 위한 클래스 변수 선언.
+	// TSubclassOf는 지정한 클래스를 제한적으로 보여주는 필터링을 제공함.
+	UPROPERTY(EditAnywhere, Category = Fight, meta = (AllowPrivateAccess = "true"))
+	TSubclassOf<class AABCharacterNonPlayer> OpponentClass;
+
+	// NPC를 생성하기까지 대기할 시간.
+	UPROPERTY(EditAnywhere, Category = Fight, meta = (AllowPrivateAccess = "true"))
+	float OpponentSpawnTime;
+
+	// NPC를 무찔렀을 때 실행할 함수.
+	UFUNCTION()
+	void OpponentDestroyed(AActor* DestroyedActor);
+
+	// NPC 생성 시간을 계산할 타이머 핸들.
+	FTimerHandle OpponentTimerHandle;
+
+	// 타이머가 종료되어 NPC가 생성될 때 호출할 함수.
+	void OpponentSpawn();
+
+// Reward Section.
+protected:
+	// 보상 상자 생성을 위한 클래스.
+	UPROPERTY(VisibleAnywhere, Category = Reward, meta = (AllowPrivateAccess = "true"))
+	TSubclassOf<class AABItemBox> RewardItemClass;
+
+	// 보상 상자는 스테이지와 무고나하기 때문에 강참조(TObjectPtr)보다는 약참조(TWeakObjectPtr)를 사용하는 것이 좋음.
+	UPROPERTY(VisibleAnywhere, Category = Reward, meta = (AllowPrivateAccess = "true"))
+	TArray<TWeakObjectPtr<class AABItemBox>> RewardBoxes;
+
+	// 보상 상자 생성 위치를 맵으로 관리.
+	TMap<FName, FVector> RewardBoxLocations;
+
+	// 생성된 상자와의 오버랩 이벤트를 처리할 때 사용할 함수.
+	UFUNCTION()
+	void OnRewardTriggerBeginOverlap(
+		UPrimitiveComponent* OverlappedComponent,
+		AActor* OtherActor,
+		UPrimitiveComponent* OtherComp,
+		int32 OtherBodyIndex,
+		bool bFromSweep,
+		const FHitResult& SweepResult
+	);
+
+	// 보상 상자 생성 함수.
+	void SpawnRewardBoxes();
 };

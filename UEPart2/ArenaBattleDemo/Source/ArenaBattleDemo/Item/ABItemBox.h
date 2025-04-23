@@ -15,6 +15,12 @@ public:
 	// Sets default values for this actor's properties
 	AABItemBox();
 
+	// Getter.
+	FORCEINLINE class UBoxComponent* GetTrigger() const { return Trigger; }
+
+protected:
+	virtual void PostInitializeComponents();
+
 protected:
 	// 박스 컴포넌트의 오버랩 델리게이트에 등록할 함수.
 	// OnComponentBeginOverlap 델리게이트는 다이내믹으로 지정되어 있기 때문에, UFUNCTION() 매크로를 지정해야 함.
