@@ -89,6 +89,9 @@ void AABItemBox::PostInitializeComponents()
 
 	// 제대로 설정됐는지 확인.
 	ensure(Item);
+
+	// 트리거가 발생하는 다이내믹 델리게이트에 함수 설정. 
+	Trigger->OnComponentBeginOverlap.AddDynamic(this, &AABItemBox::OnOverlapBegin);
 }
 
 void AABItemBox::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
