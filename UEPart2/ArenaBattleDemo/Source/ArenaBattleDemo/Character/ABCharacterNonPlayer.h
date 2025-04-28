@@ -5,13 +5,14 @@
 #include "CoreMinimal.h"
 #include "Character/ABCharacterBase.h"
 #include "Engine/StreamableManager.h"
+#include "Interface/ABCharacterAIInterface.h"
 #include "ABCharacterNonPlayer.generated.h"
 
 /**
  * 
  */
 UCLASS(config=ArenaBattle)
-class ARENABATTLEDEMO_API AABCharacterNonPlayer : public AABCharacterBase
+class ARENABATTLEDEMO_API AABCharacterNonPlayer : public AABCharacterBase, public IABCharacterAIInterface
 {
 	GENERATED_BODY()
 
@@ -33,4 +34,12 @@ protected:
 
 	// 배열에 채워진 경로를 활용해 비동기로 애셋을 로드할 때 사용.
 	TSharedPtr<FStreamableHandle> NPCMeshHandle;
+
+// AI Section.
+protected:
+	// IABCharacterInterface 인터페이스 함수 구현.
+	virtual float GetAIPatrolRadius() override;
+	virtual float GetAIDetectRange() override;
+	virtual float GetAIAttackRange() override;
+	virtual float GetAITurnSpeed() override;
 };

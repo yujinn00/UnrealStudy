@@ -14,11 +14,14 @@
   <component name="ChangeListManager">
     <list default="true" id="f66bf11f-f655-436c-a4ee-0d8c902a3086" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ArenaBattleDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ArenaBattleDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArenaBattleDemo.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/ArenaBattleDemo.uproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ArenaBattle/AI/BB_ABCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ArenaBattle/AI/BB_ABCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ArenaBattle/AI/BT_ABCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ArenaBattle/AI/BT_ABCharacter.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/ArenaBattle/Maps/Step4.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ArenaBattle/Maps/Step4.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ArenaBattleDemo/ArenaBattleDemo.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ArenaBattleDemo/ArenaBattleDemo.Build.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ArenaBattleDemo/AI/ABAIController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ArenaBattleDemo/AI/ABAIController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ArenaBattleDemo/AI/BTTask_FindPatrolPos.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ArenaBattleDemo/AI/BTTask_FindPatrolPos.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ArenaBattleDemo/AI/BTTask_FindPatrolPos.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ArenaBattleDemo/AI/BTTask_FindPatrolPos.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterNonPlayer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterNonPlayer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterNonPlayer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterNonPlayer.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +35,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://2" root0="FORCE_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://4" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Plugins/Animation/ControlRig/Source/ControlRig/Private/Units/Highlevel/Hierarchy/RigUnit_AimBone.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Plugins/FX/Niagara/Source/Niagara/Classes/NiagaraDataSetDebugAccessor.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Plugins/Media/ElectraCDM/Source/ElectraCDM/Private/3rdParty/tiny-AES-c/aes.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Plugins/Media/ElectraCodecs/Source/ElectraDecoders/Private/Android/aac/AAC_AudioDecoder_Android.cpp" root0="SKIP_HIGHLIGHTING" />
@@ -61,11 +71,14 @@
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/UnrealBuildTool/Configuration/ModuleRules.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/UnrealBuildTool/Platform/Android/AndroidToolChain.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Programs/UnrealBuildTool/ProjectFiles/Xcode/XcodeProjectLegacy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/AIModule/Classes/BehaviorTree/BTTaskNode.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/AIModule/Classes/BrainComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/AIModule/Private/AIController.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/AVEncoder/Public/VideoEncoder.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/AugmentedReality/Public/ARActor.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Core/Public/Containers/Map.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Core/Public/HAL/PThreadEvent.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Core/Public/UObject/ScriptDelegates.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/CoreUObject/Private/UObject/Class.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/CoreUObject/Private/UObject/ScriptCore.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectPtr.h" root0="FORCE_HIGHLIGHTING" />
@@ -97,6 +110,8 @@
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/UMG/Public/Components/WidgetComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/ThirdParty/astcenc/astcenc.Build.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/AI/ABAIController.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/AI/BTService_Detect.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/AI/BTService_Detect.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/AI/BTTask_FindPatrolPos.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/Animation/ABAnimInstance.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/Animation/ABAnimInstance.h" root0="FORCE_HIGHLIGHTING" />
@@ -120,6 +135,8 @@
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/Gimmick/ABStageGimmick.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/Interface/ABAnimationAttackInterface.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/Interface/ABAnimationAttackInterface.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/Interface/ABCharacterAIInterface.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/Interface/ABCharacterAIInterface.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/Interface/ABCharacterWidgetInterface.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/Interface/ABCharacterWidgetInterface.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleDemo/Item/ABItemBox.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -143,21 +160,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;C/C++ 프로젝트.ArenaBattleDemo.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ 프로젝트.ArenaBattleDemo.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "full.screen.before.presentation.mode": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CidrLocalAttachDebugger.recentlyUsed">
       <recent name="com.jetbrains.rider.cpp.debugger.RiderCppLLDBDriverConfiguration" />
@@ -294,6 +311,7 @@
       <workItem from="1745453998754" duration="7703000" />
       <workItem from="1745471658973" duration="8732000" />
       <workItem from="1745539967732" duration="8706000" />
+      <workItem from="1745799709775" duration="7016000" />
     </task>
     <servers />
   </component>
