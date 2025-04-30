@@ -9,6 +9,7 @@
 Intermediate/
 Saved/
 DerivedDataCache/
+Package/
 .vscode/
 .vs/
 *.sln
