@@ -19,6 +19,6 @@ public:
 
 public:
 	// HP 회복량.
-	UPROPERTY(EditAnywhere, Category = HP)
+	UPROPERTY(EditAnywhere, Category = Hp)
 	float HealAmount;
 };
