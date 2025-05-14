@@ -28,6 +28,9 @@ protected:
 	// 연관성 판정을 진행할 때 사용하는 함수.
 	virtual bool IsNetRelevantFor(const AActor* RealViewer, const AActor* ViewTarget, const FVector& SrcLocation) const override;
 
+	// 전송할 액터 목록이 준비되면 실행되는 함수.
+	virtual void PreReplication(IRepChangedPropertyTracker & ChangedPropertyTracker) override;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -44,6 +47,18 @@ public:
 
 	UFUNCTION()
 	void OnRep_ServerLightColor();
+
+	// 모든 클라이언트에 조명 색상 변경을 요청할 때 사용할 멀티캐스트 RPC 함수.
+	UFUNCTION(NetMulticast, Unreliable)
+	void MulticastRPCChangeLightColor(FLinearColor NewLightColor);
+
+	// 클라이언트가 서버에 조명 색상 변경을 요청할 때 사용할 Server RPC 함수.
+	UFUNCTION(Server, Unreliable, WithValidation)
+	void ServerRPCChangeLightColor();
+
+	// Client RPC.
+	UFUNCTION(Client, Unreliable)
+	void ClientRPCChangeLightColor(const FLinearColor& NewLightColor);
 
 	// @암기 2번: 리플리케이션 옵션 지정.
 	UPROPERTY(ReplicatedUsing = OnRep_ServerRotationYaw)

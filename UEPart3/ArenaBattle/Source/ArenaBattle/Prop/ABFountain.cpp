@@ -43,7 +43,7 @@ AABFountain::AABFountain()
 	NetCullDistanceSquared = 4000000.0f;
 
 	// 휴면 상태로 시작하도록 열거형 값 설정.
-	NetDormancy = DORM_Initial;
+	// NetDormancy = DORM_Initial;
 }
 
 // Called when the game starts or when spawned
@@ -63,14 +63,25 @@ void AABFountain::BeginPlay()
 				// // 데이터 변경을 위한 값 설정.
 				// BigDataElement += 1.0f;
 
-				ServerLightColor = FLinearColor(
+				// // 색상 값을 랜덤으로 설정.
+				// ServerLightColor = FLinearColor(
+				// 	FMath::RandRange(0.0f, 1.0f),
+				// 	FMath::RandRange(0.0f, 1.0f),
+				// 	FMath::RandRange(0.0f, 1.0f),
+				// 	1.0f
+				// );
+				//
+				// OnRep_ServerLightColor();
+
+				FLinearColor NewLightColor = FLinearColor(
 					FMath::RandRange(0.0f, 1.0f),
 					FMath::RandRange(0.0f, 1.0f),
 					FMath::RandRange(0.0f, 1.0f),
 					1.0f
 				);
 
-				OnRep_ServerLightColor();
+				//MulticastRPCChangeLightColor(NewLightColor);
+				ClientRPCChangeLightColor(NewLightColor);
 			}
 		), 1.0f, true);
 
@@ -80,9 +91,43 @@ void AABFountain::BeginPlay()
 			Handle2,
 			FTimerDelegate::CreateLambda([&]()
 				{
-					FlushNetDormancy();
+					// FlushNetDormancy();
+
+					// 접속한 클라이언트의 플레이어 컨트롤러 정보 가져오기.
+					for (auto Iterator = GetWorld()->GetPlayerControllerIterator(); Iterator; ++Iterator)
+					{
+						APlayerController* PlayerController = Iterator->Get();
+
+						// 서버 입장에서 IsLocalPlayerController인 경우에는 리슨 서버에 있는 PlayerController라는 의미.
+						if (PlayerController && !PlayerController->IsLocalPlayerController())
+						{
+							SetOwner(PlayerController);
+							break;
+						}
+					}
 				}
-			), 10.0f, false);
+			), 10.0f, false
+		);
+	}
+	// 클라이언트 로직.
+	else
+	{
+		// 클라이언트에서 서버 RPC 호출.
+
+		// 오너십 설정.
+		// 클라이언트 입장에서는 GetFirstPlayerController가 오너로 설정됨.
+		// SetOwner(GetWorld()->GetFirstPlayerController());
+
+		// FTimerHandle Handle;
+		// GetWorld()->GetTimerManager().SetTimer(
+		// 	Handle,
+		// 	FTimerDelegate::CreateLambda([&]()
+		// 		{
+		// 			// 서버 RPC 호출.
+		// 			ServerRPCChangeLightColor();
+		// 		}
+		// 	), 1.0f, true
+		// );
 	}
 }
 
@@ -96,6 +141,8 @@ void AABFountain::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifet
 	// DOREPLIFETIME(AABFountain, BigData);
 
 	DOREPLIFETIME(AABFountain, ServerLightColor);
+
+	// DOREPLIFETIME_CONDITION(AABFountain, ServerLightColor, COND_InitialOnly);
 }
 
 void AABFountain::OnActorChannelOpen(class FInBunch& InBunch, class UNetConnection* Connection)
@@ -117,6 +164,13 @@ bool AABFountain::IsNetRelevantFor(const AActor* RealViewer, const AActor* ViewT
 	}
 
 	return NetRelevantResult;
+}
+
+void AABFountain::PreReplication(IRepChangedPropertyTracker& ChangedPropertyTracker)
+{
+	AB_LOG(LogABNetwork, Log, TEXT("%s"), TEXT("Begin"));
+
+	Super::PreReplication(ChangedPropertyTracker);
 }
 
 // Called every frame
@@ -196,5 +250,54 @@ void AABFountain::OnRep_ServerLightColor()
 	{
 		// 서버에서 전달한 라이트 색상 적용.
 		PointLight->SetLightColor(ServerLightColor);
+	}
+}
+
+void AABFountain::ClientRPCChangeLightColor_Implementation(const FLinearColor& NewLightColor)
+{
+	AB_LOG(LogABNetwork, Log, TEXT("LightColor: %s"),
+		*NewLightColor.ToString());
+
+	// 컴포넌트 검색.
+	UPointLightComponent* PointLight
+		= Cast<UPointLightComponent>(GetComponentByClass(UPointLightComponent::StaticClass()));
+
+	if (PointLight)
+	{
+		// 서버에서 전달한 라이트 색상 적용.
+		PointLight->SetLightColor(NewLightColor);
+	}
+}
+
+bool AABFountain::ServerRPCChangeLightColor_Validate()
+{
+	return true;
+}
+
+void AABFountain::ServerRPCChangeLightColor_Implementation()
+{
+	FLinearColor NewLightColor = FLinearColor(
+		FMath::RandRange(0.0f, 1.0f),
+		FMath::RandRange(0.0f, 1.0f),
+		FMath::RandRange(0.0f, 1.0f),
+		1.0f
+	);
+	
+	MulticastRPCChangeLightColor(NewLightColor);
+}
+
+void AABFountain::MulticastRPCChangeLightColor_Implementation(FLinearColor NewLightColor)
+{
+	AB_LOG(LogABNetwork, Log, TEXT("LightColor: %s"),
+		*NewLightColor.ToString());
+
+	// 컴포넌트 검색.
+	UPointLightComponent* PointLight
+		= Cast<UPointLightComponent>(GetComponentByClass(UPointLightComponent::StaticClass()));
+
+	if (PointLight)
+	{
+		// 서버에서 전달한 라이트 색상 적용.
+		PointLight->SetLightColor(NewLightColor);
 	}
 }
