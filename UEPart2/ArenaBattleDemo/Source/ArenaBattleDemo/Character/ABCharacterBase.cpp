@@ -253,6 +253,8 @@ void AABCharacterBase::AttackHitCheck()
 		5.0f
 	);
 #endif
+
+	UE_LOG(LogTemp, Log, TEXT("%f %f"), CapsuleHalfHeight, AttackRadius);
 }
 
 float AABCharacterBase::TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent,

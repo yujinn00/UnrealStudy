@@ -89,4 +89,3 @@ void UABCharacterStatComponent::SetHp(float NewHp)
 	
 	OnHpChanged.Broadcast(CurrentHp);
 }
-

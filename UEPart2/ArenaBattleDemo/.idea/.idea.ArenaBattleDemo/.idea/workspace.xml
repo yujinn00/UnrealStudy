@@ -14,6 +14,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f66bf11f-f655-436c-a4ee-0d8c902a3086" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ArenaBattleDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ArenaBattleDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ArenaBattleDemo/Character/ABCharacterBase.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +99,7 @@
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Classes/Engine/World.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Classes/GameFramework/Actor.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Classes/GameFramework/Character.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Classes/Materials/MaterialExpressionLogarithm.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Classes/Sound/SoundSubmix.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Private/AssetManager.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Private/Controller.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -343,6 +345,8 @@
       <workItem from="1746690411482" duration="3508000" />
       <workItem from="1746863891899" duration="60000" />
       <workItem from="1747280174779" duration="1186000" />
+      <workItem from="1747294029549" duration="21000" />
+      <workItem from="1747294259221" duration="2257000" />
     </task>
     <servers />
   </component>
